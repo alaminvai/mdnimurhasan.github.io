@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Basic Website</title>
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:10,
+		animSpeed:500,
+		pauseTime:2200,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false,
+		directionNavHide:false, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+<script>
+   function fun(){
+    var date=new Date();
+   var hour=date.getHours();
+   var minute=date.getMinutes();
+   var second=date.getSeconds();
+   
+   document.getElementById("hour").innerHTML=hour;
+   document.getElementById("minute").innerHTML=minute;
+   document.getElementById("second").innerHTML=second;
+   }
+    setInterval("fun()",1000);
+   
+</script>
+   
+  
+</head>
+
+<body>
+	<div class="headersecton templete clear">
+		<div class="logo">
+			<a href="#"><img src="images/logo.jpg" alt="upload"/></a>
+			<h2>Al-amin Vai</h2>
+			<p>Hi friends I am Al-amin.</p>
+		</div>
+		<div class="clock">
+		<span id="hour"></span>:
+		<span id="minute"></span>:
+		<span id="second"></span>
+		</div>
+		<div class="social">
+			<a href="https://www.facebook.com/md.nimurhasan"><img src="images/logo/facebook.png" alt="upload"/></a>
+			<a href="#"><img src="images/logo/twitter.png" alt="upload"/></a>
+			<a href="#"><img src="images/logo/instagram.png" alt="upload"/></a>
+			<a href="https://www.youtube.com/channel/UCNUFpJZxXSAP-Z39dxC2N2g"><img src="images/logo/youtube.png" alt="upload"/></a>
+		</div>
+	</div>
+	<div class="navsection  templete">
+<ul>
+	<li><a id="active" href="#">Home</a><li>
+	<li><a href="contact.html">Contact</a><li>
+	<li><a href="#">Teaching</a>
+			<ul>
+				<li><a href="#">English</a></li>
+				<li><a href="#">Math</a></li>
+				<li><a href="#">Chamistry</a></li>
+				<li><a href="#">Extra</a></li>
+			</ul>
+		<li/>
+	<li><a href="about.html">About</a><li>
+	<li><a href="#">Humanity</a><li>
+	<li><a href="#">Policy</a><li>
+		</ul>
+		<marquee>আসসালামু-আলাইকুম। আমি আল-আমিন। সবাইকে আমার ওয়েবসাইটে স্বাগতম। Assalamu'alaikum.We are Naim and Al-amin.This is our website. We hope you can find your all propartice in here. If you feel any problem, please inform us. THANK YOU.</marquee>
+	</div>
+	<div class="slidersection templete clear">
+	 <div id="slider">
+            <a href="#"><img src="images/slideshow/01.jpg" alt="nature 1" title="Suspendisse quis velit ac nisl ultrices tristique a eu velit." /></a>
+            <a href="#"><img src="images/slideshow/02.jpg" alt="nature 2" title="Fusce eget tellus eget felis ultrices volutpat et vitae mauris." /></a>
+            <a href="#"><img src="images/slideshow/03.jpg" alt="nature 3" title="Duis non est nec dui tincidunt pulvinar lacinia vel quam." /></a>
+            <a href="#"><img src="images/slideshow/04.jpg" alt="nature 4" title="Phasellus in orci eget neque tristique semper ut ac lacus." /></a>
+        </div>
+	</div>
+	<div class="contentsection extemplete clear">
+		<div class="maincontent clear">
+			<div class="samepost clear">
+			   <h2>Our Makkah</h2>
+			   <img src="images/home/a.jpg" alt="post image"/>
+			  <p>
+			 মক্কা ইসলাম ধর্মের পবিত্রতম নগরী হিসেবে স্বীকৃত। এই শহরে মুহাম্মদ (সাঃ) এর জন্ম এবং এখানেই তিনি কুরআনের প্রথম ওহী লাভ করেন (বিশেষভাবে, হেরা গুহায় যা শহর থেকে ৩ কিলোমিটার দূরে)। মুসলিমরা প্রতি বছর হজ্জ্ব ও উমরাহ পালনের জন্য এখানে আসেন। মক্কার প্রাণকেন্দ্রে কাবা অবস্থিত। ইসলাম ধর্ম অনুযায়ী কাবা হলো পৃথিবীর প্রথম মসজিদ। মুসলিমরা প্রতিদিন পাঁচ বার নামায আদায়ের সময় এই কাবার দিকে মুখ ঘুরিয়ে রাখেন। এটি তাদের প্রার্থনার সময় দিক নির্দেশ করে। দীর্ঘদিন এই শহর মুহাম্মদ (সাঃ)এর বংশধররা শাসন করেছে। ১৯২৫ সালে ইবনে সৌদ এর মাধ্যমে সৌদি আরব রাষ্ট্র প্রতিষ্ঠিত হলে সৌদ বংশ মক্কার দায়িত্ব লাভ করে। বর্তমানেও উক্ত রাজবংশ মক্কা শাসন করছে। আধুনিক যুগে এসে শহর বহুগুন সম্প্রসারিত হয়েছে। এর অবকাঠামো, রাস্তা-ঘাট, নাগরিক সুবিধা ইত্যাদির অনেক উন্নতি লক্ষ্য করা যায়। বিশ্বের চতুর্থ উচ্চতম ভবন মক্কা রয়েল ক্লক টাওয়ার এই শহরেই অবস্থিত। উক্ত ভবনের মেঝের আয়তন সারা বিশ্বে তৃতীয় বৃহত্তম।
+		  </p>
+		  <div class="readmore clear">
+		      <a href="post.html">Read More</a>
+			  </div>
+			</div>
+			<div class="samepost clear">
+			   <h2>Our Modinah</h2>
+			   <img src="images/home/b.jpg" alt="post image"/>
+			  <p>
+		  মদিনা (আরবি: المدينة, সরকারী ভাবে: المدينة المنورة আল-মদিনা আল-মুনাওয়ারাহ‎‎) অথবা মদিনাহ হিসেবেও একে আনুবাদ করা হয়ে থাকে। পশ্চিমী সৌদি আরবের হেজাজ অঞ্চলের একটি শহর এবং আল মদিনাহ প্রদেশের রাজধানী। এইটি ইসলামের দ্বিতীয় পবিত্র শহর যেখানে মুসলমানদের শেষ নবী হযরত মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়া সাল্লামের রওযা। এইটি ঐতিহাসিকভাবে গুরুত্বপূর্ণ কারণ হযরত মুহাম্মাদ (সাঃ) হিজরতের পরে মদিনায় বসবাস করেছেন। নানান ঐতিহাসিক কারণে মদিনা অত্যন্ত গুরুত্বপূর্ণ । বিশেষ করে মুসলমানদের কাছে অত্যন্ত শ্রদ্ধেয় ও পবিত্র এই নগরীটি । ইসলামের প্রাচীনতম ও ঐতিহাসিক তিনটি মসজিদ যেমন মসজিদে নববী, কুবা মসজিদ (যেটি ইসলামের ইতিহাসে প্রথম মসজিদ ) এবং মসজিদ আল কিবলাতাইন (যে মসজিদে মুসলমানদের কিবলা পরিবর্তন হয়েছিল) অবস্থিত। হযরত মুহাম্মাদ (সা:) ৬২২ খ্রিস্টাব্দে তার সাহাবী আবু বকরকে নিয়ে পবিত্র মক্কা হতে মদিনার উদ্দেশ্যে হিজরত করেন। উমরের খিলাফতকালে সে স্মৃতির উপর ভিত্তি করে ইসলামি বর্ষপঞ্জি প্রতিষ্ঠিত হয় যা হিজরী সাল নামে পরিচিতি লাভ করে। নবীজি (স:) এর মদিনায় হিজরতের পরে যে পবিত্র কুরআনের বাণী নাযিল হয়েছিল তাকে মাদানী সূরা বলা হয় ।
+		  </p>
+		  <div class="readmore clear">
+		      <a href="post.html">Read More</a>
+			  </div>
+			</div>
+			<div class="samepost clear">
+			   <h2>Our Kurigram</h2>
+			   <img src="images/home/c.jpg" alt="post image"/>
+			  <p>
+		 কুড়িগ্রাম জেলার নামকরণের ইতিহাস নিয়ে অনেক কিংবদন্তি রয়েছে। এ বিষয়ে প্রশ্নাতীত বা সন্দেহমুক্ত কোন তথ্য পাওয়া যায়নি। সবই কিংবদন্তি ও প্রচলিত লোকশ্রুতি। তার কিছু কিছু বিষয় সমর্থনযোগ্য মনে হতে পারে। জানা যায়, কোন এক সময় মহারাজা বিশ্ব সিংহ কুড়িটি জেলে পরিবারকে উচ্চ শ্রেণীর হিন্দুরূপে স্বীকৃতি দিয়ে এ অঞ্চলে প্রেরণ করেন। এ কুড়িটি পরিবারের আগমনের কাহিনী থেকে কুড়িগ্রাম জেলার নামকরণ করা হয়েছে বলে ধারণা করা হয়। বিলু কবীরের লেখা 'বাংলাদেশের জেলা নমকরণের ইতিহাস' বই থেকে জানা যায়, এখানে কুড়িটি মেচ্ তৈলজীবী পরিবারের বসতি ছিল বলে এ রকম নামকরণ হয়েছে। অন্য আরেকটি লোকশ্রুতি হলো : রঙ্গপুর অর্থাৎ এই অঞ্চল একদা ছিল কুচবিহার রাজ্যের অন্তর্গত। কুচবিহারের বাসিন্দাদের বলা হয় কোচ। এরা তিওড় গোষ্ঠীবিশেষও। মাছ ধরে বিক্রি করা তাদের পেশা। সুবিধাবঞ্চিত নীচু শ্রেণীর এই হিন্দু কোচদের কুড়িটি পরিবারকে সেখান থেকে এখানে প্রেরণ করা হয়েছিল বা আনয়ন করা হয়েছিল বসতি স্থাপনে জন্য। ওই কুড়িটি কোচ পরিবারের কারণে 'কুড়িগ্রাম' নামকরণ হয়েছে। আবার এমনও জানা যায়, এই গ্রামে কুরি বা কুরী নামক একটি হিন্দু আদিবাসী বা নৃগোষ্ঠী বসবাস করত বলেই অঞ্চলটির নাম হয় 'কুড়িগ্রাম'। অদ্যাবধি এখানে 'কুরি' নামক আদিবাসী ক্ষুদ্র নৃগোষ্ঠীর বসবাস লক্ষ্য করা যায়। এখানো এ অঞ্চলে কুড়ি হিসেবে গোনার পদ্ধতি চালু রয়েছে। বিশিষ্ট পণ্ডিত জা পলিলুস্কি প্রমাণ করেছেন, গণনার এ পদ্ধতি বাংলায় এসেছে কোল ভাষা থেকে। কোল অস্ট্রিক ভাষাগোষ্ঠীর অন্তর্গত। আরব অস্ট্রিক ভাষায় কুর বা কোর ধাতুর অর্থ হলো মানুষ। কুড়ি হিসেবে গোনার পদ্ধতিটিও এসেছে মানুষ থেকেই। এ অস্ট্রিক কারা? পন্ডিতদের মতে, প্রত্নপ্রস্তর যুগে এ অঞ্চলে বাস করত নিগ্রো জাতি। এরপর আসে নব্যপ্রস্তর যুগ। আসামের উপত্যকা অতিক্রম করে আসে অস্ট্রিক জাতীয় জনগোষ্ঠী। তারপরে আসে দ্রাবিড় ও মঙ্গোলীয়রা।
+		  </p>
+		  <div class="readmore clear">
+		      <a href="post.html">Read More</a>
+			  </div>
+			</div>
+		  </div>
+		  <div class="sidebar clear">
+        <div class="samesidebar clear">
+        <h2>Update news block</h2>
+      <ul>
+        <li><a href="#"><P>today news here .click here to see.</p></a></li>
+        <li><a href="#"><p>today news here .click here to see.</p></a></li>
+        <li><a href="#"><p>today news here .click here to see.<p/></a></li>
+        <li><a href="#"><p>today news here .click here to see.</p></a></li>
+        <li><a href="#"><p>today news here .click here to see.<p></a></li>
+        <li><a href="#"><p>today news here .click here to see.<p></a></li>
+        <li><a href="#"><p>today news here .click here to see.</p></a></li>
+        <li><a href="#"><p>today news here .click here to see.</p></a></li>
+
+      </ul>
+      </div>
+        <div class="samesidebar clear">
+          <div class="update">
+               <h2><a href="#">Update news</a></h2>
+               <a href="#"><img src="images/side.png" alt="upload"/></a>
+               <p>
+                IBM Brand Experience & Design (BX&D) oversees the expression and strategic evolution of
+                 every IBM brand and sub-brand worldwide. Our work crosses research and strategy, communications and
+                 </p>
+          </div>
+          <div class="update">
+               <h2><a href="#">Update news</a></h2>
+               <a href="#"><img src="images/side.png" alt="upload"/></a>
+               <p>
+                IBM Brand Experience & Design (BX&D) oversees the expression and strategic evolution of
+                 every IBM brand and sub-brand worldwide. Our work crosses research and strategy, communications and
+                 </p>
+          </div>
+          <div class="update">
+               <h2><a href="#">Update news</a></h2>
+               <a href="#"><img src="images/side.png" alt="upload"/></a>
+               <p>
+                IBM Brand Experience & Design (BX&D) oversees the expression and strategic evolution of
+                 every IBM brand and sub-brand worldwide. Our work crosses research and strategy, communications and
+                 </p>
+          </div>
+          <div class="update">
+               <h2><a href="#">Update news</a></h2>
+               <a href="#"><img src="images/side.png" alt="upload"/></a>
+               <p>
+                IBM Brand Experience & Design (BX&D) oversees the expression and strategic evolution of
+                 every IBM brand and sub-brand worldwide. Our work crosses research and strategy, communications and
+                 </p>
+          </div>
+      </div>
+		  </div>
+		 </div>
+	<div class="footersection templete clear">
+		<marquee>hi everyone in my website and i hope all are well.best of good luck.</marquee>
+    <div class="footer">
+  &copy;copyright by Naim.
+</div>
+	</div>
+<script type="text/javascript" src="js/arrow.js"></script>
+
+</body>
+</html>

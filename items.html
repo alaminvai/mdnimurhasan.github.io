@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>I am lota</title>
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+<script>
+   function fun(){
+    var date=new Date();
+   var hour=date.getHours();
+   var minute=date.getMinutes();
+   var second=date.getSeconds();
+   
+   document.getElementById("hour").innerHTML=hour;
+   document.getElementById("minute").innerHTML=minute;
+   document.getElementById("second").innerHTML=second;
+   }
+    setInterval("fun()",1000);
+   
+</script>
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({
+		effect:'random',
+		slices:10,
+		animSpeed:1000,
+		pauseTime:3200,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:false,
+		directionNavHide:false, //Only show on hover
+		controlNav:false, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});
+});
+</script>
+</head>
+
+<body>
+		<div class="headersecton templete clear">
+		<div class="logo">
+			<img src="images/logo.jpg" alt="upload"/></a>
+			<h2>website title</h2>
+			<p>website discription</p>
+		</div>
+		<div class="clock">
+		<span id="hour"></span>:
+		<span id="minute"></span>:
+		<span id="second"></span>
+		</div>
+		<div class="social">
+			<a href="#"><img src="images/logo/facebook.png" alt="upload"/></a>
+			<a href="#"><img src="images/logo/twitter.png" alt="upload"/></a>
+			<a href="#"><img src="images/logo/instagram.png" alt="upload"/></a>
+			<a href="https://www.youtube.com/watch?v=azMLXbArheg"><img src="images/logo/youtube.png" alt="upload"/></a>
+		</div>
+	</div>
+	<div class="navsection  templete clear">
+	   <ul>
+			<li><a href="index.html">Home</a><li>
+			<li><a href="#">Contact</a><li>
+			<li><a href="about.html">About</a><li>
+			<li><a href="contact.html">Policy</a><li>
+	</div>
+	<div class="slidersection templete clear">
+	 <div id="slider">
+            <a href="#"><img src="images/slideshow/05.jpg" alt="nature 1" title="First day at SSC exam haal for SSC 2018 exam." /></a>
+            <a href="#"><img src="images/slideshow/06.jpg" alt="nature 2" title="where is my anothor friend, I searceing her." /></a>
+            <a href="#"><img src="images/slideshow/07.jpg" alt="nature 3" title="I am in my home & first tiem meet with Naim" /></a>
+            <a href="#"><img src="images/slideshow/08.jpg" alt="nature 4" title="Before exam, I discuse some matter with my friend circle." /></a>
+        </div>
+	</div>
+	<div class="contentsection templete clear">
+		<div class="maincontent clear">
+			<div class="lota clear">
+			   <h2>I am Lota</h2>
+			   <img src="images/lota.jpg" alt="post image"/>
+			  <p>
+		 I am a student of SSC batch 2018.<p/>
+		 <p>My father name is : <b>Md Lotif.</b></p>
+		 <p>My brother name is : <b>Md Al Amin.</b></p>
+		 <p>My SSC roll is : <b>225777</b></p>
+		 <p>I had studed from "<b>Mondoler Hatt Ucco Biddaloy"</b></p>
+		  </p>
+		  <div class="readmore clear">
+		      <a href="#">Read More</a>
+			  </div>
+			</div>
+			<div class="lota clear">
+			   <h2>My brother</h2>
+			   <img src="images/al_amin_vai.jpg  " alt="post image"/>
+			  <p>
+		 I am a student of SSC batch 2017.<p/>
+		 <p>My father name is : <b>Md Lotif.</b></p>
+		 <p>My sister name is : <b>Mst Lota.</b></p>
+		 <p>My birthday is : <b>1st November 1998</b></p>
+		 <p>I had studed from "<b>Mondoler Hatt Ucco Biddaloy"</b></p>
+		  </p>
+		  <div class="readmore clear">
+		      <a href="#">Read More</a>
+			  </div>
+			 
+			</div>
+			 <div class="photo">
+			  <img src="images/al_amin_vai.jpg" alt="upload"/>
+			  <div class="bac"></div>
+			  </div>
+			<div class="items">
+			<img src="images/about.jpg" alt="upload photo"/>
+			<div class="shadow">
+			   <div class="mytext"><h2>We are student.</h2>
+			<p>Humanity is the best solution.</p>
+				</div>
+			</div>
+			</div>
+		  </div>
+		  <div class="sidebar clear">
+		      <div class="samesidebar clear">
+			    <h2>Update news block</h2>
+				<ul>
+          <li><a href="#"><P>today news here .click here to see.</p></a></li>
+					<li><a href="#"><p>today news here .click here to see.</p></a></li>
+					<li><a href="#"><p>today news here .click here to see.<p/></a></li>
+					<li><a href="#"><p>today news here .click here to see.</p></a></li>
+					<li><a href="#"><p>today news here .click here to see.<p></a></li>
+					<li><a href="#"><p>today news here .click here to see.<p></a></li>
+					<li><a href="#"><p>today news here .click here to see.</p></a></li>
+					<li><a href="#"><p>today news here .click here to see.</p></a></li>
+
+				</ul>
+			  </div>
+        <div class="samesidebar clear">
+					<div class="update">
+							 <h2><a href="#">Update news</a></h2>
+							 <a href="#"><img src="images/side.png" alt="upload"/></a>
+							 <p>
+								IBM Brand Experience & Design (BX&D) oversees the expression and strategic evolution of
+								 every IBM brand and sub-brand worldwide. Our work crosses research and strategy, communications and
+								 </p>
+					</div>
+					<div class="update">
+							 <h2><a href="#">Update news</a></h2>
+							 <a href="#"><img src="images/side.png" alt="upload"/></a>
+							 <p>
+								IBM Brand Experience & Design (BX&D) oversees the expression and strategic evolution of
+								 every IBM brand and sub-brand worldwide. Our work crosses research and strategy, communications and
+								 </p>
+					</div>
+					<div class="update">
+							 <h2><a href="#">Update news</a></h2>
+							 <a href="#"><img src="images/side.png" alt="upload"/></a>
+							 <p>
+								IBM Brand Experience & Design (BX&D) oversees the expression and strategic evolution of
+								 every IBM brand and sub-brand worldwide. Our work crosses research and strategy, communications and
+								 </p>
+					</div>
+					<div class="update">
+							 <h2><a href="#">Update news</a></h2>
+							 <a href="#"><img src="images/side.png" alt="upload"/></a>
+							 <p>
+								IBM Brand Experience & Design (BX&D) oversees the expression and strategic evolution of
+								 every IBM brand and sub-brand worldwide. Our work crosses research and strategy, communications and
+								 </p>
+					</div>
+			</div>
+		  </div>
+
+		 </div>
+     <div class="footersection templete clear">
+       <div class="footer">
+     &copy;copyright by Naim.
+   </div>
+   	</div>
+</body>
+</html>
